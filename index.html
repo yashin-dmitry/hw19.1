@@ -283,17 +283,18 @@
                             </p>
                             <button type="button" class="btn btn-success">Купить</button>
                             <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Имя</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1">
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">E-mail</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="name@example.com" rows="3"></textarea>
-</div>
-                            <button type="button" class="btn btn-secondary">Отправить</button>
+                            </div>
                         </div>
                     </div>
                 </div>
+                    <div class="col-4 card mb-4 rounded-3 shadow-sm">
+                        <label for="exampleFormControlInput1" class="form-label">Имя</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                        <label for="exampleFormControlTextarea1" class="form-label">E-mail</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                                  placeholder="name@example.com" rows="3"></textarea>
+                        <button type="button" class="btn btn-secondary mt-3">Отправить</button>
+                    </div>
             </div>
         </main>
 
@@ -315,76 +316,90 @@
 </script>
 </body>
 <div class="container mt-5">
-  <div class="accordion" id="faqAccordion">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="faq1">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Как купить?
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
-        <div class="accordion-body">
+    <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faq1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                    Как купить?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="faq1"
+                 data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                </div>
+                <div class="accordion-body">
+                    <strong>Инструкция по покупке:</strong>
+                    <br>
+                    1. Выберите товар, который вам интересен, и нажмите кнопку "Купить".
+                    <br>
+                    2. Заполните форму, указав ваше имя и электронную почту.
+                    <br>
+                    3. Нажмите кнопку "Отправить". В течение нескольких минут вы получите письмо с инструкциями по
+                    оплате.
+                    <br>
+                    4. После оплаты товара мы приступим к его подготовке и отправке.
+                </div>
+            </div>
         </div>
-          <div class="accordion-body">
-    <strong>Инструкция по покупке:</strong>
-    <br>
-    1. Выберите товар, который вам интересен, и нажмите кнопку "Купить".
-    <br>
-    2. Заполните форму, указав ваше имя и электронную почту.
-    <br>
-    3. Нажмите кнопку "Отправить". В течение нескольких минут вы получите письмо с инструкциями по оплате.
-    <br>
-    4. После оплаты товара мы приступим к его подготовке и отправке.
-</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="faq2">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Как доставить?
-        </button>
-      </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
-        <div class="accordion-body">
-        </div>
-          <div class="accordion-body">
-    <strong>Информация о доставке:</strong>
-    <br>
-    Мы доставляем товар по всей территории России. Стоимость доставки зависит от веса и габаритов товара, а также от расстояния доставки. Вы можете узнать стоимость доставки на странице товара или в корзине.
-    <br>
-    <br>
-    Срок доставки зависит от выбранного способа доставки и от региона доставки. Примерные сроки доставки указаны на странице товара и в корзине.
-    <br>
-    <br>
-    Если вы хотите получить товар самостоятельно, вы можете выбрать способ самовывоза при оформлении заказа. В этом случае вы сможете забрать товар из пункта самовывоза, указанного в вашем заказе.
-</div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faq2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Как доставить?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="faq2"
+                 data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                </div>
+                <div class="accordion-body">
+                    <strong>Информация о доставке:</strong>
+                    <br>
+                    Мы доставляем товар по всей территории России. Стоимость доставки зависит от веса и габаритов
+                    товара, а также от расстояния доставки. Вы можете узнать стоимость доставки на странице товара или в
+                    корзине.
+                    <br>
+                    <br>
+                    Срок доставки зависит от выбранного способа доставки и от региона доставки. Примерные сроки доставки
+                    указаны на странице товара и в корзине.
+                    <br>
+                    <br>
+                    Если вы хотите получить товар самостоятельно, вы можете выбрать способ самовывоза при оформлении
+                    заказа. В этом случае вы сможете забрать товар из пункта самовывоза, указанного в вашем заказе.
+                </div>
 
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="faq3">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Какая гарантия?
-        </button>
-      </h2>
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
-        <div class="accordion-body">
-            <div class="accordion-body">
-    <strong>Информация о гарантии:</strong>
-    <br>
-    Мы предоставляем гарантию на все товары, продаваемые в нашем магазине. Срок гарантии указан на странице товара и в оформленном заказе.
-    <br>
-    <br>
-    Если у вас возникли проблемы с товаром, вы можете обратиться в нашу службу поддержки. Мы рассмотрим вашу жалобу и примем необходимые меры для ее устранения.
-    <br>
-    <br>
-    Если товар не может быть отремонтирован или заменен, мы вернем вам деньги, уплаченные за товар, в течение 14 дней со дня получения жалобы.
-</div>
-
+            </div>
         </div>
-      </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faq3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Какая гарантия?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="faq3"
+                 data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    <div class="accordion-body">
+                        <strong>Информация о гарантии:</strong>
+                        <br>
+                        Мы предоставляем гарантию на все товары, продаваемые в нашем магазине. Срок гарантии указан на
+                        странице товара и в оформленном заказе.
+                        <br>
+                        <br>
+                        Если у вас возникли проблемы с товаром, вы можете обратиться в нашу службу поддержки. Мы
+                        рассмотрим вашу жалобу и примем необходимые меры для ее устранения.
+                        <br>
+                        <br>
+                        Если товар не может быть отремонтирован или заменен, мы вернем вам деньги, уплаченные за товар,
+                        в течение 14 дней со дня получения жалобы.
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
 </html>
